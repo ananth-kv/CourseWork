@@ -6,4 +6,4 @@ This code is written in MATLAB.
 
 Download MNIST data from here: http://yann.lecun.com/exdb/mnist/
 
-Mex files are windows compatible. Without LibSVM won't work.
+Use Mex files. Without LibSVM won't work.
