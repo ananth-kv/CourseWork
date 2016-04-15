@@ -32,7 +32,7 @@ train.y = labels_train;
 test.x = images_test;
 test.y = labels_test;
 
-%SVM without PCA : Question 3
+%SVM without PCA
 [accuracy, MSE] = SVM(train,test);
 
 %Question 4 Visualizing Eigen Vectors
@@ -57,7 +57,6 @@ hold on;
 plot(dimen, List_MSE,'g--');
 hold off;
 
-%SVM with PCA : Question 5
+%SVM with PCA
 [accuracy_PCA] = SVM_PCA(train,test);
 plot(dimensions,accuracy_PCA,'r--');
-
