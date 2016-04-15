@@ -1,4 +1,4 @@
-Implementation of SVM from the scratch for classification on MNIST data.
+Implementation of SVM using LibSVM for classification on MNIST data.
 
 PCA is also used on top of it.
 
